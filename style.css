@@ -1,0 +1,127 @@
+#mainBlock{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+#header{
+    background-color: rgb(153, 153, 153);
+    border-bottom: 1px solid  rgb(153, 153, 153);
+    width: 100%;
+    position: relative;
+    height: 110px;
+}
+#menu{
+    position: absolute;
+    left: 2%;
+    bottom: 3%;
+}
+#imageInHeader{
+    position: absolute;
+    right: 7%;
+    bottom: 10%;
+}
+img{
+    width: 100px;
+    height: 40px;
+}
+
+#blockWithButtons{
+    position: absolute;
+    margin: 0 auto;
+    width: 65%;
+    left: 20%;
+    bottom: 20%;
+
+}
+.btn{
+    display: inline-block; 
+    background: #8C959D; 
+    color: #fff; 
+    padding: 1rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 3px; 
+}
+.blockWithButtons-button-text{
+    margin-top: 6px;
+    font-size: 12px;
+}
+#main{
+    position: relative;
+}
+#upPart{
+    height: 500px;
+    background: url(img/2.png) no-repeat;
+    background-size: 100% 100%;
+}
+#lowPart{
+    height: 300px;
+    background: url(img/3.jpg) no-repeat 100% 100%;
+    background-size: 100% 100%;
+}
+.lowPart-content{
+    width: 20%;
+    float: left;
+    border: 2px solid crimson;
+    margin-right: 1%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(196, 189, 189);
+    font-size: 0.7em;
+}
+#upPart-block{
+    width: 30%;
+    height: 15%;
+    border: 2px solid green;
+    background-color: rgba(192, 192, 192, 0.74);
+    border-radius: 10px 0;
+    padding: 10px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+#lowPart-block{
+    width: 80%;
+    position: absolute;
+    left: 15%;
+    bottom: 40%;
+}
+.lowPart-button{
+    border: 1px solid black;
+    border-radius: 10px;
+    border-style: outset;
+    padding: 2.5px;
+    color: red;
+    margin-left: 20%;
+
+
+}
+.lowerBlock{
+    height: 500px;
+    background: url(img/4.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.lowerBlock-content{
+    color:white;
+    border: 2px solid green;
+    background-color: rgba(192, 192, 192, 0.74);
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 100%;
+    padding: 30px 15px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 200px;
+}
+.footer-leftContent{
+    position: absolute;
+    left: 4%;
+    bottom: 3%;
+}
+.footer-rightContent{
+    position: absolute;
+    right: 4%;
+    bottom: 2%;
+}
