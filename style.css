@@ -33,6 +33,7 @@ img{
     bottom: 20%;
 
 }
+
 .btn{
     display: inline-block; 
     background: #8C959D; 
@@ -41,6 +42,7 @@ img{
     text-decoration: none; 
     border-radius: 3px; 
 }
+
 .blockWithButtons-button-text{
     margin-top: 6px;
     font-size: 12px;
@@ -54,7 +56,7 @@ img{
     background-size: 100% 100%;
 }
 #lowPart{
-    height: 300px;
+    height: 400px;
     background: url(img/3.jpg) no-repeat 100% 100%;
     background-size: 100% 100%;
 }
@@ -95,32 +97,33 @@ img{
 
 
 }
-.lowerBlock{
+#lowerBlock{
     height: 500px;
     background: url(img/4.jpg) no-repeat;
     background-size: 100% 100%;
 }
-.lowerBlock-content{
-    color:white;
+#lowerBlock-content{
     border: 2px solid green;
     background-color: rgba(192, 192, 192, 0.74);
-    display: inline-block;
-    font-size: 30px;
-    border-radius: 100%;
-    padding: 30px 15px;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    padding: 30px;
 }
-.footer{
+#footer{
     background-color: black;
     color: white;
-    position: relative;
+    position: relative; 
     height: 200px;
 }
-.footer-leftContent{
+#footer-leftContent{
     position: absolute;
     left: 4%;
     bottom: 3%;
 }
-.footer-rightContent{
+#footer-rightContent{
     position: absolute;
     right: 4%;
     bottom: 2%;
